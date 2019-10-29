@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1364" started-at="2019-09-25T08:10:59 COT" finished-at="2019-09-25T08:11:00 COT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1364" started-at="2019-09-25T08:10:59 COT" finished-at="2019-09-25T08:11:00 COT">
+      <class name="co.edu.icesi.testIntegration.ServicioServicioIntegrationTest">
+        <test-method status="PASS" signature="setuUP()[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="setuUP" is-config="true" duration-ms="23" started-at="2019-09-25T08:10:59 COT" finished-at="2019-09-25T08:10:59 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setuUP -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="4" started-at="2019-09-25T08:10:59 COT" finished-at="2019-09-25T08:10:59 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1281" started-at="2019-09-25T08:10:59 COT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2019-09-25T08:11:00 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="2" started-at="2019-09-25T08:11:00 COT" finished-at="2019-09-25T08:11:00 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void co.edu.icesi.testIntegration.ServicioServicioIntegrationTest.testCreateFechaInicioConsistente()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testCreateFechaInicioConsistente()[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="testCreateFechaInicioConsistente" duration-ms="8" started-at="2019-09-25T08:11:00 COT" finished-at="2019-09-25T08:11:00 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateFechaInicioConsistente -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2019-09-25T08:11:00 COT" finished-at="2019-09-25T08:11:00 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void co.edu.icesi.testIntegration.ServicioServicioIntegrationTest.testCreateFechaInicioConsistente()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testCreateRutaInvalido()[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="testCreateRutaInvalido" duration-ms="1" started-at="2019-09-25T08:11:00 COT" finished-at="2019-09-25T08:11:00 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateRutaInvalido -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-09-25T08:11:00 COT" finished-at="2019-09-25T08:11:00 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void co.edu.icesi.testIntegration.ServicioServicioIntegrationTest.testCreateRutaInvalido()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-09-25T08:11:00 COT" finished-at="2019-09-25T08:11:00 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void co.edu.icesi.testIntegration.ServicioServicioIntegrationTest.testCreateRutaInvalido()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="testCreateServicioValida()[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="testCreateServicioValida" duration-ms="4" started-at="2019-09-25T08:11:00 COT" finished-at="2019-09-25T08:11:00 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateServicioValida -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2019-09-25T08:11:00 COT" finished-at="2019-09-25T08:11:00 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void co.edu.icesi.testIntegration.ServicioServicioIntegrationTest.testCreateServicioValida()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2019-09-25T08:11:00 COT" finished-at="2019-09-25T08:11:00 COT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void co.edu.icesi.testIntegration.ServicioServicioIntegrationTest.testCreateServicioValida()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:co.edu.icesi.testIntegration.ServicioServicioIntegrationTest@2638011]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2019-09-25T08:11:00 COT" finished-at="2019-09-25T08:11:00 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- co.edu.icesi.testIntegration.ServicioServicioIntegrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
